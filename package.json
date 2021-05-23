@@ -1,0 +1,41 @@
+{
+  "name": "reactstrap-react-lib-cli",
+  "version": "1.1.1",
+  "description": "This is CLI for reactstrap-react-lib",
+  "main": "lib/index.js",
+  "bin": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "build": "tsc -p .",
+    "dev": "tsc -p . && node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeshramya/reactstrap-react-lib-cli.git"
+  },
+  "keywords": [
+    "CLI",
+    "forms",
+    "reactstrap",
+    "react",
+    "next"
+  ],
+  "author": "Dr Umesh R Bilagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umeshramya/reactstrap-react-lib-cli/issues"
+  },
+  "homepage": "https://github.com/umeshramya/reactstrap-react-lib-cli#readme",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^15.6.0",
+    "@types/react": "^17.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reactstrap": "^8.9.0",
+    "reactstrap-react-lib": "^1.1.18"
+  }
+}
